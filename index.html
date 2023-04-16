@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- meta tag start -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS links -->
+     <link rel="stylesheet" href="style/bootstrap.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
+    <link rel="stylesheet" href="style/bootstrap-icons.css">
+   <title>BS5 practise</title>
+</head>
+<body>
+  <div class="alert alert-danger alert-dismissible fade show m-0 text-center" role="alert">
+    <strong>Holy guacamole!</strong> You should <a href="#" class="alert-link">More Information</a>. check in on some of those fields below.
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+  <section class="banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div id="carousel1" class="carousel slide">
+            <!-- carousal indicator start -->
+
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <!-- carousal indicator end -->
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="slider">
+                  <h5>First slide</h5>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet labore modi saepe eos odio ea recusandae expedita consectetur facilis provident!</p>
+                  <button  class="btn btn-primary c_btn">Click</button>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="slider">
+                  <h5>Second slide</h5>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet labore modi saepe eos odio ea recusandae expedita consectetur facilis provident!</p>
+                <button class="btn btn-primary c_btn">Click</button>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="slider">
+                  <h5>Third slide</h5>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet labore modi saepe eos odio ea recusandae expedita consectetur facilis provident!</p>
+                <button class="btn btn-primary c_btn">Click</button>
+                </div>
+              </div>
+            </div>
+            <!-- carousal control button start -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            <!-- carousal control button end-->
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+      
+     
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 offset-lg-2 offset-md-1 bg-success py-2 text-center mb-2">
+        <i class="bi bi-0-circle-fill i_style"></i>
+        <i class="bi bi-fonts i_style"></i>
+        <i class="bi bi-arrow-right-circle-fill i_style me-0"></i>
+      </div>
+      <div class="col-lg-8 col-md-10 offset-lg-2 offset-md-1 bg-secondary text-center py-2">
+        <i class="bi bi-chat i_style"></i>
+        <i class="bi bi-check-lg i_style"></i>
+        <i class="bi bi-download i_style me-0"></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- accordion start -->
+<section class="accord_sec py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 offset-lg-1">
+
+        <div class="accordion" id="accordion_01">
+          <!-- accordion item -01 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <h5 class="m-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, laudantium?</h5>
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordion_01">
+              <div class="accordion-body">
+                <p class="m-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam corrupti fugiat exercitationem maiores et cum dolores aspernatur alias. Illum omnis suscipit excepturi aliquid voluptas, beatae ex est at voluptatem magni recusandae dolorem ut perferendis soluta eligendi vel error, ullam pariatur atque praesentium cum asperiores! Porro odio fugit tenetur officia laboriosam</p>
+              </div>
+            </div>
+          </div>
+          <!-- accordion item -02 -->
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <h5 class="m-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, laudantium?</h5>
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordion_01">
+              <div class="accordion-body">
+                <p class="m-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam corrupti fugiat exercitationem maiores et cum dolores aspernatur alias. Illum omnis suscipit excepturi aliquid voluptas, beatae ex est at voluptatem magni recusandae dolorem ut perferendis soluta eligendi vel error, ullam pariatur atque praesentium cum asperiores! Porro odio fugit tenetur officia laboriosam</p>
+              </div>
+            </div>
+          </div>
+          <!-- accordion item -03 -->
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <h5 class="m-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, laudantium?</h5>
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordion_01">
+              <div class="accordion-body">
+             <p class="m-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam corrupti fugiat exercitationem maiores et cum dolores aspernatur alias. Illum omnis suscipit excepturi aliquid voluptas, beatae ex est at voluptatem magni recusandae dolorem ut perferendis soluta eligendi vel error, ullam pariatur atque praesentium cum asperiores! Porro odio fugit tenetur officia laboriosam</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- accordion end -->
+
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-sm-4 py-2">
+        <button type="button" class="btn btn-primary">Primary</button>
+        
+        <button type="button" class="btn btn-link">Link</button>
+      </div>
+      <div class="col-sm-4 py-2">
+        <a class="btn btn-primary" href="#" role="button">Link</a>
+        <input class="btn btn-primary" type="reset" value="Reset">
+        <button type="button" class="btn btn-outline-primary">Primary</button>
+    </div>
+      <div class="col-sm-4 py-2">
+        <button type="button" class="btn btn-primary btn-lg">Large button</button>
+        <button type="button" class="btn btn-primary btn-sm disabled">Small button</button>
+
+      </div>
+      <div class="d-grid gap-2">
+        <button class="btn btn-primary" type="button">Button</button>
+        <button class="btn btn-primary" type="button">Button</button>
+
+      </div>
+      
+    </div>
+  </div>
+
+  
+ <!-- javascript links -->
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/script.js"></script>
+</body>
+</html>
